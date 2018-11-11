@@ -1,9 +1,9 @@
 /*Parameter*/
 integer face = ALL_SIDES;
 integer link = LINK_THIS;
-list textureLabel=["text1","text2","text3"];
+list textureLabel=["texture1","texture2","texture3"];
 list textureUuid=["15ec95e5-1bba-aac4-debe-dc8fe9c1a21a","30c2fa67-9699-b0e8-7c91-6213dcde5f18","b168319c-d6e6-90be-2bce-ec8dc272ee7a"];
-list whitelist=["corincrowley","liviaolovely","goldilocks777","madsava"]; 
+list whitelist=["liviaolovely"]; 
 
 string cur;
 integer menu_handler;
