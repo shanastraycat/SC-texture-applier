@@ -1,4 +1,3 @@
-/*Parameter*/
 integer face = ALL_SIDES;
 integer link = LINK_THIS;
 list textureLabel=["texture1","texture2","texture3"];
