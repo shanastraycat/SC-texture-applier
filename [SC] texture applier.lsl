@@ -11,7 +11,7 @@ integer menu_channel;
 
 menu(key user,string title,list buttons) 
 {
-    menu_channel = (integer)(llFrand(99999.0) * -1);
+    menu_channel = (integer)llFrand(-999999.0);
     menu_handler = llListen(menu_channel,"",user,"");
     llDialog(user,title,buttons,menu_channel);
     llSetTimerEvent(60);
